@@ -8,7 +8,7 @@ In this repo you'll find a Rails 5.1 app using `react_on_rails` with react route
 
 _Clone (don't fork) the repo then change the remote to your own repository. Push your changes to your own repository and send me a link to when done._
 
-1. Try to run the site and make sure it works. If it doesn't, fix it!
+1. Try to run the site and make sure it works. If it doesn't, fix it! *hint: it's not working. you're gonna need to debug it*
 - [ ] Root path loads first quote
 - [ ] Next link loads next quote
 - [ ] Previous link loads previous quote
