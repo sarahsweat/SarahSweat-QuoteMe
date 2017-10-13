@@ -18,9 +18,9 @@ _Clone (don't fork) the repo then change the remote to your own repository. Push
 
 3. Add a feature to allow the input of new quotes.
 
+4. Add a feature to display a random quote.
 
-
-4. When you're finished, send me a link to your repository and celebrate!
+5. When you're finished, send me a link to your repository and celebrate!
 
 ![chandler](https://media.giphy.com/media/ZQjUvxPYUQ21q/giphy.gif)
 
