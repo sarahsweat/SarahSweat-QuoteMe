@@ -29,9 +29,7 @@ class QuoteAdd extends React.Component {
         formActive: false
       })
     })
-    // .catch(function (error) {
-    //   console.log(error);
-    // })
+    .then(() => this.props.fetchQuote(this.props.id))
   }
 
   showCloseForm = () => {

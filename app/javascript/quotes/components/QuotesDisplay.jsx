@@ -68,7 +68,7 @@ class QuotesDisplay extends React.Component {
 
           <QuoteBody quote={quote} />
 
-          { nextQuoteId ?
+          { this.state.quote.next_id ?
             <QuoteNavigation direction='next' otherQuoteId={nextQuoteId} /> :
             null }
 
@@ -82,8 +82,10 @@ class QuotesDisplay extends React.Component {
             null }
           <Link className='btn btn-primary' to={`/?quote=${randomQuoteId}`}>
             Random Quote
-          </Link><br/>
-          <QuoteAdd/>
+          </Link>
+          <br/>
+          <br/>
+          <QuoteAdd handlePost={this.fetchQuote} id={quote.id}/>
 
         </div>
 
